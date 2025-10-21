@@ -82,3 +82,11 @@ jupyter lab
 - **2025-09-21** — Added GBM path simulator and Monte Carlo pricer; validated against BS; saved plots.  
 - **2025-09-22** — Wrote Markdown explanations (overview, math quickview, results) and polished notebook for readability.  
 - **2025-09-23** — Created supporting files (`README.md`, `requirements.txt`, `.gitignore`, `LICENSE`) and finalized repo structure.  
+
+
+## Results Note
+With parameters \(S_0 = 100\), \(K = 100\), \(r = 2\%\), and \(\sigma = 20\%\):
+- Monte Carlo estimate for the call option ≈ **8.9624**
+- Black–Scholes analytical price = **8.9160**
+
+The Monte Carlo estimate falls within the expected 95 % confidence interval and converges toward the theoretical value as \(N\) increases, demonstrating correct implementation.
