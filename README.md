@@ -1,7 +1,10 @@
 # Monte Carlo Option Pricing under Black–Scholes (Python)
 
 **Summary**  
-My preparation for applying to MSc programs in Financial Mathematics included this project. I wanted to practice using a numerical method in Python and brush up on my knowledge of option pricing theory. Monte Carlo simulation is popular in real markets and has a beautiful mathematical design, which is why I chose it. I added plots to illustrate my findings and checked them against the closed-form Black-Scholes solution along the way.
+This project was developed as part of my MSc mathematical finance preparation.  
+It implements a Monte Carlo pricer for European call and put options and validates the results against the analytical Black–Scholes model.  
+The notebook includes 95% confidence intervals, convergence diagnostics, and plots saved automatically to the `plots/` folder.
+
 
 
 ---
